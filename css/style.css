@@ -28,3 +28,13 @@ section {
     box-sizing: border-box;
     background-color: whitesmoke;
 }
+
+.navbar {
+    display: inline-flex;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
