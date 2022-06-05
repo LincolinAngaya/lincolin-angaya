@@ -50,3 +50,30 @@ section {
     font-family: 'poppin';
     text-decoration: none;
 }
+
+.navbar .logo a span {
+    color: blue;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbar nav {
+    margin: 7px;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    padding: 22px;
+    list-style: none;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    position: relative;
+    /* transition: all 0.3s ease; */
+}
