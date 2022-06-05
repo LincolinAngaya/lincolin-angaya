@@ -1,421 +1,185 @@
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    -webkit-transition: .2s linear;
-    transition: .2s linear;
-}
-
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
-}
-
-html::-webkit-scrollbar {
-    width: 1rem;
-}
-
-html::-webkit-scrollbar-track {
-    background: #fff;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: #10221b;
-}
-
-section {
-    padding: 5rem 9%;
-}
-
-
-/*  */
-
-.header {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: whitesmoke;
-}
-
-.navbar {
-    display: inline-flex;
-    width: 100%;
-    background-color: #fff;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.navbar .logo {
-    margin: 12px;
-}
-
-.navbar .logo a {
-    color: black;
-    font-size: 38px;
-    font-weight: 600;
-    font-family: 'poppin';
-    text-decoration: none;
-}
-
-.navbar .logo a span {
-    color: blue;
-    transition: all 0.3s ease;
-}
-
-.navbar.sticky .logo a span {
-    color: #fff;
-}
-
-.navbar nav {
-    margin: 7px;
-}
-
-.navbar nav ul li {
-    display: inline-block;
-    padding: 22px;
-    list-style: none;
-}
-
-.navbar nav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-    color: blue;
-    position: relative;
-    /* transition: all 0.3s ease; */
-}
-
-nav ul li a::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: black;
-    transition: width 0.3s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
-.navbar nav ul li a:hover {
-    color: black;
-    font-weight: lighter;
-}
-
-.navbar .btn {
-    margin: 25px;
-    font-size: 20px;
-    border: 2px solid blue;
-    background: transparent;
-    padding: 5px 15px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    color: blue;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.navbar .btn:hover {
-    color: black;
-    background-color: whitesmoke;
-    border: 2px solid black;
-    font-weight: lighter;
-}
-
-
-/*----header part-*/
-
-.header .content-box {
-    display: flex;
-    margin-top: 7em;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header .content-box img {
-    height: 550px;
-    border-radius: 50%;
-    margin-right: 10rem;
-    margin-top: 11.5rem;
-}
-
-.header .content-box .content {
-    margin-top: 11.5rem;
-    align-items: center;
-    margin-left: 9rem;
-    display: block;
-    align-items: center;
-}
-
-.header .content-box .content h4 {
-    letter-spacing: 3px;
-    font-size: 39px;
-    padding: 12px;
-}
-
-.content h1 {
-    color: blue;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-}
-
-.header .content-box .content h3 {
-    color: black;
-    font-size: 29px;
-    margin-bottom: 50px;
-}
-
-.text-box a span {
-    font-size: 30px;
-    line-height: 15px;
-    margin-left: 10px;
-}
-
-
-/*-----about-----*/
-
-.about-me {
-    display: flex;
-    margin-top: 39px;
-}
-
-.about-me .about-text .bton {
-    margin: 0;
-    border: 2px solid blue;
-    padding: 7px 10px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 25px;
-    color: blue;
-    font-weight: lighter;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    background-color: white;
-    margin-left: 190px;
-    align-items: center;
-}
-
-.about-me .about-text .bton:hover {
-    color: black;
-    background-color: whitesmoke;
-    font-weight: lighter;
-    border: 2px solid black;
-}
-
-.about-me img {
-    margin: 5rem 8rem;
-}
-
-.about-me .about-text {
-    margin-right: 10rem;
-    background-color: white;
-    box-shadow: 4px 2px 6px 6px rgba(0, 0, 250, 0.3);
-    border-radius: 10px;
-    height: 90vh;
-}
-
-.about-me .about-text h2 {
-    text-align: center;
-    font-size: 49px;
-    letter-spacing: 3px;
-    padding: 12px;
-    color: blue;
-}
-
-.about-me .about-text h5 {
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 34px;
-    color: black;
-    padding: 12px;
-}
-
-.about-me .about-text p {
-    text-align: center;
-    letter-spacing: 4px;
-    font-size: 24px;
-    color: black;
-    text-align: left;
-    padding: 12px;
-    line-height: 1.9;
-}
-
-.about-me .about-text span {
-    text-align: center;
-    font-size: 32px;
-    color: blue;
-}
-
-
-/*----contact me section---*/
-
-.contact-me {
-    border-radius: 12px;
-    height: 25vh;
-    margin: 39px 0px 0px 0px;
-    background-color: whitesmoke;
-}
-
-.contact-me p {
-    color: black;
-    font-size: 36px;
-    letter-spacing: 4px;
-    padding: 36px 8px;
-    text-align: center;
-}
-
-.contact-me .button-two {
-    background-color: transparent;
-    padding: 7px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 25px;
-    color: blue;
-    border: 2px solid blue;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.contact-me .button-two:hover {
-    color: black;
-    background-color: #fff;
-    border: 2px solid black;
-    font-weight: lighter;
-}
-
-
-/*----footer section---*/
-
-.footer {
-    height: 40vh;
-}
-
-.footer .box-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-    gap: 1.5rem;
-}
-
-.footer .box-container .box h3 {
-    font-size: 3rem;
-    padding: 0px 10px 10px 10px;
-    color: black;
-}
-
-.footer .box-container .box a {
-    display: block;
-    font-size: 1.9rem;
-    color: blue;
-    padding: 1rem 0;
-    margin-left: 25px;
-}
-
-.footer .box-container .box a i {
-    color: blue;
-    padding-right: .5rem;
-}
-
-.footer .box-container .box a:hover {
-    color: black;
-}
-
-.footer .box-container .box a:hover i {
-    padding-right: 2rem;
-}
-
-.credit {
-    text-align: center;
-    padding: 0.5rem;
-    padding-top: 1.5rem;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    background-color: black;
-}
-
-label #btn,
-label #cancel {
-    color: black;
-    font-size: 30px;
-    float: right;
-    line-height: 50px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
-
-/*-------conactact form section----*/
-
-
-/*media query*/
-
-@media (max-width:1118px) {
-    .logo {
-        left: 12%;
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        -webkit-transition: .2s linear;
+        transition: .2s linear;
     }
-    .header .content-box {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
+    
+    html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
     }
-    .header .content-box img {
-        height: 300px;
-        border-radius: 50%;
-        margin-left: 62px;
-        margin-top: 30px;
-        align-items: center;
+    
+    html::-webkit-scrollbar {
+        width: 1rem;
     }
-    .header .content-box .content {
-        align-items: center;
+    
+    html::-webkit-scrollbar-track {
+        background: #fff;
+    }
+    
+    html::-webkit-scrollbar-thumb {
+        background: #10221b;
+    }
+    
+    section {
+        padding: 5rem 9%;
+    }
+    /*  */
+    
+    .header {
+        position: relative;
         width: 100%;
-        display: block;
-        align-items: center;
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: whitesmoke;
     }
+    
+    .navbar {
+        display: inline-flex;
+        width: 100%;
+        background-color: #fff;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .navbar .logo {
+        margin: 12px;
+    }
+    
+    .navbar .logo a {
+        color: black;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: 'poppin';
+        text-decoration: none;
+    }
+    
+    .navbar .logo a span {
+        color: blue;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar.sticky .logo a span {
+        color: #fff;
+    }
+    
+    .navbar nav {
+        margin: 7px;
+    }
+    
+    .navbar nav ul li {
+        display: inline-block;
+        padding: 22px;
+        list-style: none;
+    }
+    
+    .navbar nav ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: blue;
+        position: relative;
+        /* transition: all 0.3s ease; */
+    }
+    
+    nav ul li a::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: black;
+        transition: width 0.3s;
+    }
+    
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+    
+    .navbar nav ul li a:hover {
+        color: black;
+        font-weight: lighter;
+    }
+    
+    .navbar .btn {
+        margin: 25px;
+        font-size: 20px;
+        border: 2px solid blue;
+        background: transparent;
+        padding: 5px 15px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: blue;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar .btn:hover {
+        color: black;
+        background-color: whitesmoke;
+        border: 2px solid black;
+        font-weight: lighter;
+    }
+    /*----header part-*/
+    
+    .header .content-box {
+        display: flex;
+        margin-top: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header .content-box img {
+        height: 550px;
+        border-radius: 50%;
+        margin-right: 10rem;
+        margin-top: 9.5rem;
+    }
+    
     .header .content-box .content {
-        justify-content: center;
+        margin-top: 11.5rem;
+        align-items: center;
+        margin-left: 9rem;
         display: block;
         align-items: center;
-        margin-top: 30px;
     }
+    
     .header .content-box .content h4 {
         letter-spacing: 3px;
-        font-size: 25px;
-        padding: 12px 12px 0px 12px;
+        font-size: 39px;
+        padding: 12px;
     }
+    
     .content h1 {
         color: blue;
-        padding: 12px 12px 0px 12px;
-        font-size: 40px;
+        margin: 20px 0px 20px;
+        font-size: 75px;
     }
+    
     .header .content-box .content h3 {
         color: black;
-        font-size: 20px;
-        padding: 12px 12px 0px 12px;
+        font-size: 29px;
+        margin-bottom: 50px;
     }
+    
     .text-box a span {
-        font-size: 10px;
-        line-height: 9px;
+        font-size: 30px;
+        line-height: 15px;
+        margin-left: 10px;
     }
+    
     .btn {
         border: 2px solid blue;
         background: transparent;
@@ -423,46 +187,286 @@ label #cancel {
         padding: 7px 15px;
         border-radius: 8px;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 25px;
         color: blue;
         cursor: pointer;
         transition: all 0.3s ease;
     }
-}
-
-@media (max-width:860px) {
-    .navbar nav ul li a {
-        font-size: 15px;
+    
+    .btn:hover {
+        border: 2px solid black;
+        color: black;
+        cursor: pointer;
     }
-    label #btn {
-        display: block;
+    /*-----about-----*/
+    
+    .about-me {
+        display: flex;
+        margin-top: 39px;
     }
-    .navbar nav ul {
-        position: fixed;
-        width: 100%;
-        height: 40vh;
-        background: #fff;
-        top: 70px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        border: 1px solid whitesmoke;
+    
+    .about-me .about-text .bton {
+        margin: 10px;
+        border: 2px solid blue;
+        padding: 7px 10px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 25px;
+        color: blue;
+        font-weight: lighter;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 190px;
+        align-items: center;
+    }
+    
+    .about-me .about-text .bton:hover {
+        color: black;
+        background-color: whitesmoke;
+        font-weight: lighter;
+        border: 2px solid black;
+    }
+    
+    .about-me img {
+        margin: 5rem 8rem;
+    }
+    
+    .about-me .about-text {
+        margin-right: 10rem;
+        background-color: white;
+        box-shadow: 4px 2px 6px 6px rgba(0, 0, 250, 0.3);
         border-radius: 10px;
+        display: inline-block;
     }
-    .navbar nav ul li {
+    
+    .about-me .about-text h2 {
+        text-align: center;
+        font-size: 49px;
+        letter-spacing: 1px;
+        padding: 8px;
+        color: blue;
+        padding-bottom: 0px;
+    }
+    
+    .about-me .about-text h5 {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 34px;
+        color: black;
+        padding: 9px;
+    }
+    
+    .about-me .about-text p {
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        text-align: left;
+        padding: 12px;
+        line-height: 1.7;
+        height: auto;
+    }
+    
+    .about-me .about-text span {
+        text-align: center;
+        font-size: 32px;
+        color: blue;
+    }
+    /*----contact me section---*/
+    
+    .contact-me {
+        border-radius: 12px;
+        height: 30vh;
+        margin: 39px 0px 0px 0px;
+        background-color: whitesmoke;
+    }
+    
+    .contact-me p {
+        color: black;
+        font-size: 36px;
+        letter-spacing: 4px;
+        padding: 36px 8px;
+        text-align: center;
+    }
+    
+    .contact-me .button-two {
+        padding: 7px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 25px;
+        color: blue;
+        border: 2px solid blue;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .contact-me .button-two:hover {
+        color: black;
+        background-color: #fff;
+        border: 2px solid black;
+        font-weight: lighter;
+    }
+    /*----footer section---*/
+    
+    .footer {
+        height: 40vh;
+        width: 100%;
+    }
+    
+    .footer .box-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    
+    .footer .box-container .box h3 {
+        font-size: 3rem;
+        padding: 0px 10px 10px 10px;
+        color: black;
+    }
+    
+    .footer .box-container .box a {
         display: block;
-        line-height: 5px;
+        font-size: 1.9rem;
+        color: blue;
+        padding: 1rem 0;
+        margin-left: 25px;
     }
-    .navbar nav ul li a {
-        font-size: 20px;
+    
+    .footer .box-container .box a i {
+        color: blue;
+        padding-right: .5rem;
     }
-    #check:checked~.navbar nav ul li {
-        left: 0;
+    
+    .footer .box-container .box a:hover {
+        color: black;
     }
-    #check:checked~label #btn {
+    
+    .footer .box-container .box a:hover i {
+        padding-right: 2rem;
+    }
+    
+    .credit {
+        text-align: center;
+        padding: 0.5rem;
+        padding-top: 1.5rem;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        background-color: black;
+    }
+    
+    label #btn,
+    label #cancel {
+        color: black;
+        font-size: 30px;
+        float: right;
+        line-height: 50px;
+        margin-right: 40px;
+        cursor: pointer;
         display: none;
     }
-    #check:checked~label #cancel {
-        display: block;
+    
+    #check {
+        display: none;
     }
-}
+    /*media query*/
+    
+    @media (max-width:1118px) {
+        .logo {
+            left: 12%;
+        }
+        .header .content-box {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+        }
+        .header .content-box img {
+            height: 300px;
+            border-radius: 50%;
+            margin-left: 62px;
+            margin-top: 30px;
+            align-items: center;
+        }
+        .header .content-box .content {
+            align-items: center;
+            width: 100%;
+            display: block;
+            align-items: center;
+        }
+        .header .content-box .content {
+            justify-content: center;
+            display: block;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .header .content-box .content h4 {
+            letter-spacing: 3px;
+            font-size: 25px;
+            padding: 12px 12px 0px 12px;
+        }
+        .content h1 {
+            color: blue;
+            padding: 12px 12px 0px 12px;
+            font-size: 40px;
+        }
+        .header .content-box .content h3 {
+            color: black;
+            font-size: 20px;
+            padding: 12px 12px 0px 12px;
+        }
+        .text-box a span {
+            font-size: 10px;
+            line-height: 9px;
+        }
+        .btn {
+            border: 2px solid blue;
+            background: transparent;
+            margin: 10px 40px 20px;
+            padding: 7px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 15px;
+            color: blue;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+    }
+    
+    @media (max-width:860px) {
+        .navbar nav ul li a {
+            font-size: 15px;
+        }
+        label #btn {
+            display: block;
+        }
+        .navbar nav ul {
+            position: fixed;
+            width: 100%;
+            height: 40vh;
+            background: #fff;
+            top: 70px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+        }
+        .navbar nav ul li {
+            display: block;
+            line-height: 5px;
+        }
+        .navbar nav ul li a {
+            font-size: 20px;
+        }
+        #check:checked~.navbar nav ul li {
+            left: 0;
+        }
+        #check:checked~label #btn {
+            display: none;
+        }
+        #check:checked~label #cancel {
+            display: block;
+        }
+    }
