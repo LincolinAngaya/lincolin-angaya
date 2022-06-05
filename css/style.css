@@ -77,3 +77,24 @@ section {
     position: relative;
     /* transition: all 0.3s ease; */
 }
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar nav ul li a:hover {
+    color: black;
+    font-weight: lighter;
+}
