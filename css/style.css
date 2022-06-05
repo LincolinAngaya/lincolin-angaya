@@ -42,3 +42,11 @@ section {
 .navbar .logo {
     margin: 12px;
 }
+
+.navbar .logo a {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'poppin';
+    text-decoration: none;
+}
