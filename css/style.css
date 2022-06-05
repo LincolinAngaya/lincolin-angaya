@@ -98,3 +98,24 @@ nav ul li a:hover::after {
     color: black;
     font-weight: lighter;
 }
+
+.navbar .btn {
+    margin: 25px;
+    font-size: 20px;
+    border: 2px solid blue;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    font-weight: lighter;
+}
