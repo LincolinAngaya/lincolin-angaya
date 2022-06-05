@@ -349,3 +349,18 @@ nav ul li a:hover::after {
     text-align: center;
     background-color: black;
 }
+
+label #btn,
+label #cancel {
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
