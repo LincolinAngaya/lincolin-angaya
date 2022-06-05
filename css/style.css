@@ -38,3 +38,7 @@ section {
     top: 0;
     left: 0;
 }
+
+.navbar .logo {
+    margin: 12px;
+}
