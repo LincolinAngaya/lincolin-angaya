@@ -357,7 +357,7 @@
         background-color: black;
     }
     
-    label #btn,
+    label #btn1,
     label #cancel {
         color: black;
         font-size: 30px;
@@ -374,13 +374,10 @@
     /*media query*/
     
     @media (max-width:860px) {
-        body {
-            background-color: red;
-        }
         .navbar nav ul li a {
             font-size: 15px;
         }
-        label #btn {
+        label #btn1 {
             display: block;
         }
         .header {
@@ -389,6 +386,7 @@
             height: 100vh;
             box-sizing: border-box;
             background-color: #fff;
+            margin-bottom: 40em;
         }
         .navbar {
             display: inline-flex;
@@ -411,6 +409,9 @@
             border: 1px solid whitesmoke;
             border-radius: 10px;
         }
+        #button-1 {
+            display: none;
+        }
         .navbar nav ul li {
             display: block;
             line-height: 5px;
@@ -421,7 +422,7 @@
         #check:checked~.navbar nav ul li {
             left: 0;
         }
-        #check:checked~label #btn {
+        #check:checked~label #btn1 {
             display: none;
         }
         #check:checked~label #cancel {
@@ -434,14 +435,14 @@
             align-items: center;
             justify-content: center;
         }
-        .content-box img {
-            /* height: 550px;
-            
-            margin-right: 10rem;
-            margin-top: 9.5rem; */
+        .content-box .profile-pic {
+            height: 120px;
+            width: 100vw;
+            margin-top: 0px;
+            padding-top: 0px;
         }
         .header .content-box .content {
-            margin-top: 11.5rem;
+            margin-top: 7.5rem;
             align-items: center;
             margin-left: 9rem;
             display: block;
@@ -487,7 +488,7 @@
         }
         /*-----about-----*/
         .about-me {
-            margin-top: 10px;
+            margin-top: 20rem;
             align-items: center;
             justify-content: center;
         }
@@ -524,7 +525,7 @@
             display: block;
             margin-left: 50px;
             text-align: center;
-            width: 200vw;
+            width: 350vw;
             height: 60vh;
         }
         .about-me .about-text h2 {
