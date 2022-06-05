@@ -188,3 +188,112 @@ nav ul li a:hover::after {
     line-height: 15px;
     margin-left: 10px;
 }
+
+.about-me {
+    display: flex;
+    margin-top: 39px;
+}
+
+.about-me .about-text .bton {
+    margin: 0;
+    border: 2px solid blue;
+    padding: 7px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    font-weight: lighter;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 190px;
+    align-items: center;
+}
+
+.about-me .about-text .bton:hover {
+    color: black;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    border: 2px solid black;
+}
+
+.about-me img {
+    margin: 5rem 8rem;
+}
+
+.about-me .about-text {
+    margin-right: 10rem;
+    background-color: white;
+    box-shadow: 4px 2px 6px 6px rgba(0, 0, 250, 0.3);
+    border-radius: 10px;
+    height: 90vh;
+}
+
+.about-me .about-text h2 {
+    text-align: center;
+    font-size: 49px;
+    letter-spacing: 3px;
+    padding: 12px;
+    color: blue;
+}
+
+.about-me .about-text h5 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 34px;
+    color: black;
+    padding: 12px;
+}
+
+.about-me .about-text p {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    line-height: 1.9;
+}
+
+.about-me .about-text span {
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+}
+
+
+/*----contact me section---*/
+
+.contact-me {
+    border-radius: 12px;
+    height: 25vh;
+    margin: 39px 0px 0px 0px;
+    background-color: whitesmoke;
+}
+
+.contact-me p {
+    color: black;
+    font-size: 36px;
+    letter-spacing: 4px;
+    padding: 36px 8px;
+    text-align: center;
+}
+
+.contact-me .button-two {
+    background-color: transparent;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    border: 2px solid blue;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-me .button-two:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    font-weight: lighter;
+}
