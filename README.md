@@ -4,13 +4,10 @@ Lincolin personal portfolio
 Lincolin Angaya   6/06/2022
 ## Project Description
 Lincolin personal portfolio is a project designed to show the  personal background information of  an individual.It also shows the academics level of an individual and experince in the respective career industry.It also shows the capability and  of invidual to any job opportunity in their respectve career field. Incase you want to keep in touch with the individual ,we  have the contact section where it hold the social media links and other relevant  network  links.
-## SetUp Instruction
 ### Requirements
-* [Lang](lang Url)
-* [Framework](Framework URL)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 * [Testing Platform](Platform URL)
-
+* broswser[chrome]
 
 ### Getting Files
 * Fork the repo
@@ -23,13 +20,6 @@ Lincolin personal portfolio is a project designed to show the  personal backgrou
 - Create a Pull request
 * Open the folder location on terminal and use the following command to run app:
 
-## How To Run It
->  $ pip install -r requirements.txt
-To install all requirements
-
-> $ python3 manage.py runserver
-Then run server with the above command
-*****
 ## Live Link
 Or you can access the web application directly via this [LINK.](https://lincolinangaya.github.io/lincolin-angaya/)
 
@@ -37,10 +27,26 @@ Or you can access the web application directly via this [LINK.](https://lincolin
 1. HTML
 2. figma
 3. CSS
-
 ## Contact Information
 * Email : lincolin.angaya@student.moringaschool.com
 *****
-## [License](LICENSE)
-MIT License
+ ###  Requirements
+ * Access to  a computer or any other gargdet(laptop,tablet and phone)
+ * Access to  stable internet
+ ### Installation Process
+ ****
+* Clone to thir repo : git clone https://git@github.com:LincolinAngaya/lincolin-anagay-portfolio.git
+## Known Bugs:
+No bugs are reported so far. Noticed any bug? KIndly contact me on lincolinangaya5626@gmail.com
+## for set-up you can :
+[MIT](https://github.com/LincolinAngaya/moringa-school/)
+Please make sure to update tests as appropriate.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+ the project has a copyroght, illegal copying of thhis project is against the law.
+
 Copyright (c) 2022 Lincolin Angaya
