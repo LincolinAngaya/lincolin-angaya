@@ -35,7 +35,7 @@ Or you can access the web application directly via this [LINK.](https://lincolin
  * Access to  stable internet
  ### Installation Process
  ****
-* Clone to thir repo : git clone https://git@github.com:LincolinAngaya/lincolin-anagay-portfolio.git
+* Clone to thE repo : git clone https://github.com/LincolinAngaya/lincolin-angaya
 ## Known Bugs:
 No bugs are reported so far. Noticed any bug? KIndly contact me on lincolinangaya5626@gmail.com
 ## for set-up you can :
