@@ -3,7 +3,7 @@ Lincolin personal portfolio
 ### Author : Name Date
 Lincolin Angaya   6/06/2022
 ## Project Description
-Lincolin personal portfolio is a project designed to show the  personal background information of  an individual.It also shows the academics level of an individual and experince in the respective career industry.Incase you want to keep in touch with the individual ,we  have the contact section where it hold the social media links and other relevant  network  links.kills.skills and capability of an invidual in the respectve career field.<br>It also shows the capability and  of invidual to any job opportunity 
+Lincolin personal portfolio is a project designed to show the  personal background information of  an individual.It also shows the academics level of an individual and experince in the respective career industry.<br>It also shows the capability and  of invidual to any job opportunity in the respectve career field. Incase you want to keep in touch with the individual ,we  have the contact section where it hold the social media links and other relevant  network  links.
 
 
 ## SCREENSHOTS
