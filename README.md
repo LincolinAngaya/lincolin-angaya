@@ -3,15 +3,7 @@ Lincolin personal portfolio
 ### Author : Name Date
 Lincolin Angaya   6/06/2022
 ## Project Description
-Lincolin personal portfolio is a project designed to show the  personal background information of  an individual.It also shows the academics level of an individual and experince in the respective career industry.<br>It also shows the capability and  of invidual to any job opportunity in the respectve career field. Incase you want to keep in touch with the individual ,we  have the contact section where it hold the social media links and other relevant  network  links.
-
-
-## SCREENSHOTS
-- link 1
-- link 2
-
-
-********
+Lincolin personal portfolio is a project designed to show the  personal background information of  an individual.It also shows the academics level of an individual and experince in the respective career industry.It also shows the capability and  of invidual to any job opportunity in their respectve career field. Incase you want to keep in touch with the individual ,we  have the contact section where it hold the social media links and other relevant  network  links.
 ## SetUp Instruction
 ### Requirements
 * [Lang](lang Url)
@@ -22,12 +14,12 @@ Lincolin personal portfolio is a project designed to show the  personal backgrou
 
 ### Getting Files
 * Fork the repo
-- Create a new branch in your terminal (git checkout -b improve-feature)
+- Create a new branch in your terminal (git checkout -b gh-pages)
 - Install the prerequisites
 - Make appropriate changes in file(s)
 - Run the server to see the changes
 - Add the changes and commit them (git commit -am "Improve App")
-- Push to the branch (git push origin improve-app)
+- Push to the branch (git push origin gh-pages)
 - Create a Pull request
 * Open the folder location on terminal and use the following command to run app:
 
@@ -39,24 +31,16 @@ To install all requirements
 Then run server with the above command
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
-*****
-## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
-*****
+Or you can access the web application directly via this [LINK.](https://lincolinangaya.github.io/lincolin-angaya/)
+
 ## Technologies Used
 1. HTML
-2. MdBootstrap
-3. HTML
-4. CSS
-5. JavaScript
-*****
+2. figma
+3. CSS
+
 ## Contact Information
-* Email : example@gmail.com
+* Email : lincolin.angaya@student.moringaschool.com
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) 2022 Lincolin Angaya
